@@ -1,0 +1,52 @@
+header{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    section{
+        height: 50%;
+        width: 100%;
+        /* border: 2px solid rebeccapurple; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+}
+.marioHeader{
+    height: 80px;
+    width: auto;
+}
+.myName{
+    text-align: center;
+    display: flex;
+    p{
+        font-size: 40px;
+    }
+}
+.profession{
+    font-size: small;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width:768px) {
+    .boxGif{
+        height: 25%;
+    }
+    header{
+        height: 700px;
+    }
+    .marioHeader{
+        height: 120px;
+    }
+    .myName{
+        p{
+            font-size: 90px;
+        }
+    }
+    .profession{
+        font-size: x-large;
+    }
+    
+}

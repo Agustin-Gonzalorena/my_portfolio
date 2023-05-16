@@ -1,0 +1,21 @@
+:root {
+  background-color: #242424;
+  color: white;
+  font-family: SuperMario;
+}
+
+@font-face {
+  font-family: SuperMario;
+  src: url("./assets/fonts/SuperMario256.ttf");
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #242424;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #242424;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #9c9c9c;
+}
