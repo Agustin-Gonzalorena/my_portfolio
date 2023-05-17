@@ -3,7 +3,9 @@
   color: white;
   font-family: SuperMario;
 }
-
+body {
+  margin: 0;
+}
 @font-face {
   font-family: SuperMario;
   src: url("./assets/fonts/SuperMario256.ttf");

@@ -47,24 +47,20 @@
         opacity: 0;
     }
     .marioRun{
-        height: 50px;
-    }
-    .logos{
-        height: 50px;
-        width: auto;
-        border-radius: 50%;
+        height: 60px;
     }
 }
 @media screen and (min-width:768px) {
     .tube{
-        height: 300px;
-        width: 180px;
+        height: 255px;
+        width: 153px;
     }
     .textContainer{
         h2{
             font-size: 50px;
         }
-        p{
+        p{  
+            width: 50%;
             font-size: larger;
         }
     }
@@ -81,11 +77,6 @@
         }
         .marioRun{
             height: 100px;
-        }
-        .logos{
-            height: 100px;
-            width: auto;
-            border-radius: 50%;
         }
     }
 }

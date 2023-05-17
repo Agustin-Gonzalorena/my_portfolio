@@ -1,0 +1,13 @@
+.logos{
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+@media screen and (min-width:768px) {
+    .logos{
+        height: 100px;
+        width: auto;
+        border-radius: 50%;
+    }
+}
