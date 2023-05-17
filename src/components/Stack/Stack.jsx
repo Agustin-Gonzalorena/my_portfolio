@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Stack.scss";
 import marioBomb from "../../assets/gif/bomb3.gif";
 import { stacks } from "../../utils/MyStack";
-import StackCard from "../stackCard/stackCard";
+import StackCard from "../StackCard/StackCard";
 import { motion } from "framer-motion";
 
 const Stack = () => {
