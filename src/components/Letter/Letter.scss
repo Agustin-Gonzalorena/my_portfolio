@@ -1,12 +1,24 @@
-.blue {
-    color: #049cd8 !important;
-  }
-  .yellow {
-    color: #fbd000 !important;
-  }
-  .red {
-    color: #e52521 !important;
-  }
-  .green {
-    color: #43b047 !important;
-  }
+.blue:hover{
+  color: #049cd8;
+}
+.yellow:hover{
+  color: #fbd000
+}
+.red:hover{
+  color: #e52521
+}
+.green:hover{
+  color: #43b047 
+}
+.yellowActive {
+  color: #fbd000 !important;
+}
+.redActive{
+  color: #e52521 !important;
+}
+.greenActive {
+  color: #43b047 !important;
+}
+.blueActive{
+  color: #049cd8 !important;
+}

@@ -1,0 +1,28 @@
+.proyectsBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    border: 1px solid violet;
+    h2{
+        font-size: 30px;
+    }
+}
+.proyectsContent{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    border: 1px solid lime;
+}
+@media screen and (min-width:768px) {
+    .proyectsBox{
+        h2{
+            font-size: 50px;
+        }
+    }
+}

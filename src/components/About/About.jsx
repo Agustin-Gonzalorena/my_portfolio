@@ -19,10 +19,10 @@ const About = () => {
           whileInView={{ x: 0, scale: [0.1, 0.1, 0.2, 0.2, 1] }}
           viewport={{ once: true }}
         >
-          <h2>Sobre mi</h2>
+          <h2>About me</h2>
           <p>
-            Soy un desarrollador web Full Stack con experiencia en la creación
-            de aplicaciones web personalizadas desde cero. Con habilidades en el
+            Soy desarrollador web Full Stack con experiencia en la creación de
+            aplicaciones web personalizadas desde cero. Con habilidades en el
             desarrollo de front-end y back-end, puedo trabajar en todas las
             etapas del ciclo de vida del desarrollo de software. Mi pasión por
             crear soluciones innovadoras y de alta calidad para los usuarios
@@ -36,6 +36,7 @@ const About = () => {
         {social.map((i) => (
           <SocialCard
             key={i.id}
+            name={i.name}
             urlSocial={i.url}
             imgLogo={i.logo}
             exitX={exitX}
@@ -45,7 +46,7 @@ const About = () => {
           className="marioRun"
           initial={{ x: -exitX + 100, opacity: 0 }}
           transition={{
-            duration: window.screen.width > 768 ? 3 : 5,
+            duration: window.screen.width > 768 ? 2 : 3,
             delay: 1.5,
           }}
           whileInView={{

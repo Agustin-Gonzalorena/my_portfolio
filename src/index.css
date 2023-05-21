@@ -2,9 +2,14 @@
   background-color: #242424;
   color: white;
   font-family: SuperMario;
+  /* cursor: cell; */
 }
 body {
-  margin: 0;
+  margin: 2px;
+  cursor: url(./assets/img/Super_Mario_GoombaCursor.png), auto;
+}
+a {
+  cursor: url(./assets/img/MarioCursorPointer.png), auto;
 }
 @font-face {
   font-family: SuperMario;
