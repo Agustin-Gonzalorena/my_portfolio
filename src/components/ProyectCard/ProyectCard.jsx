@@ -4,20 +4,12 @@ import { motion } from "framer-motion";
 import cubeImg from "../../assets/img/Cubo.png";
 import StackCard from "../StackCard/StackCard";
 
-const ProyectCard = ({
-  time,
-  name,
-  description,
-  stacks,
-  img,
-  deploy,
-  github,
-}) => {
+const ProyectCard = ({ name, description, stacks, img, deploy, github }) => {
   const [view, setView] = useState(false);
   const changue = () => {
     setTimeout(() => {
       setView(true);
-    }, time);
+    }, 2000);
   };
   return (
     <>

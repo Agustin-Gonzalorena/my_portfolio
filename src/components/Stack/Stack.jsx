@@ -18,7 +18,7 @@ const Stack = () => {
     <section className="boxStack">
       <h2>Stack</h2>
       <motion.div
-        initial={{ opacity: 0 }}
+        initial={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
         whileInView={explodeBomb}
         viewport={{ once: true }}

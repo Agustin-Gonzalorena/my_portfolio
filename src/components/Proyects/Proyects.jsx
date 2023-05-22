@@ -12,7 +12,6 @@ const Proyects = () => {
         {myProyects.map((i) => (
           <ProyectCard
             key={i.id}
-            time={i.id * 800}
             name={i.name}
             description={i.description}
             stacks={i.stacks}

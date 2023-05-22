@@ -41,10 +41,10 @@ const Contact = () => {
     <>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <motion.img
-          style={{ height: "100px" }}
+          style={{ height: "100px", position: "absolute" }}
           src={turtleImg}
           initial={{ opacity: 1, y: 400 }}
-          transition={{ duration: 3 }}
+          transition={{ duration: 2.5 }}
           whileInView={{ opacity: [1, 1, 0], y: [400, 0, -200] }}
           viewport={{ once: true }}
         />
