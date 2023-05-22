@@ -76,6 +76,14 @@
     background-color: #FF0000;
     cursor: url(../../assets/img/MarioCursorPointer.png),auto;
   }
+  .disabled {
+    opacity: 0.5;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  .disabled:hover{
+    background-color: #e52521;
+  }
   
   .mario-button:active {
     box-shadow: none;

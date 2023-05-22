@@ -18,7 +18,7 @@ const Contact = () => {
     setSend(false);
     emailjs
       .sendForm(
-        "service_gokv1kx",
+        "service_4k6v44k",
         "template_nyzi2de",
         e.target,
         "XmI1mlKojbS-Mmgn9"
@@ -97,9 +97,15 @@ const Contact = () => {
             ></textarea>
             <span className="bar"></span>
           </div>
-          <button type="submit" className="mario-button">
-            ENVIAR
-          </button>
+          {!loading ? (
+            <button type="submit" className="mario-button ">
+              ENVIAR
+            </button>
+          ) : (
+            <button type="submit" className="mario-button disabled" disabled>
+              ENVIAR
+            </button>
+          )}
         </form>
       </motion.section>
     </>
