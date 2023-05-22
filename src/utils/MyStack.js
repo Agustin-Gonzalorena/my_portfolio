@@ -11,7 +11,7 @@ import aMaterialImg from "../assets/img/stack/aMaterial.jpeg";
 import bootstrapImg from "../assets/img/stack/bootstrap.jpeg";
 import gitImg from "../assets/img/stack/git.jpeg";
 
-export const stacks = [
+export const myStacks = [
   { id: 1, name: "JavaScript", img: jsImg },
   { id: 2, name: "TypeScript", img: tsImg },
   { id: 3, name: "HTML", img: htmlImg },

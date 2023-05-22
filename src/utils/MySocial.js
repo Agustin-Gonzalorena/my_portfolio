@@ -2,7 +2,7 @@ import logoGithub from "../assets/img/githubLogo.png";
 import logoLinkedin from "../assets/img/linkedInLogo.png";
 import logoCv from "../assets/img/cvLogo.png";
 
-export const social = [
+export const mySocial = [
   {
     id: 1,
     name: "GitHub",

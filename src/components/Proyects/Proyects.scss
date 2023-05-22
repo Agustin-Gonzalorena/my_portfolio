@@ -6,23 +6,36 @@
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
-    border: 1px solid violet;
     h2{
         font-size: 30px;
+    }
+    .moreProyects{
+        background-color: black;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: medium;
+        cursor: url(../../assets/img/MarioCursorPointer.png),auto;
     }
 }
 .proyectsContent{
     height: auto;
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 100px;
-    border: 1px solid lime;
 }
 @media screen and (min-width:768px) {
     .proyectsBox{
         h2{
             font-size: 50px;
+        }
+        .proyectsContent{
+            width: 70%;
         }
     }
 }

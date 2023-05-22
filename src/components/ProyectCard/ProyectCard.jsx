@@ -2,8 +2,17 @@ import React, { useState } from "react";
 import "./ProyectCard.scss";
 import { motion } from "framer-motion";
 import cubeImg from "../../assets/img/Cubo.png";
+import StackCard from "../StackCard/StackCard";
 
-const ProyectCard = ({ time }) => {
+const ProyectCard = ({
+  time,
+  name,
+  description,
+  stacks,
+  img,
+  deploy,
+  github,
+}) => {
   const [view, setView] = useState(false);
   const changue = () => {
     setTimeout(() => {
@@ -14,10 +23,38 @@ const ProyectCard = ({ time }) => {
     <>
       {view ? (
         <motion.div
+          className="proyectCardContainer"
           transition={{ duration: 2 }}
           animate={{ opacity: [0, 1] }}
-          style={{ height: "200px", width: "200px", backgroundColor: "grey" }}
-        ></motion.div>
+        >
+          <div className="boxImg">
+            <img src={img} />
+          </div>
+          <div className="divider"></div>
+          <div className="boxInfo">
+            <h3>{name}</h3>
+            <p>{description}</p>
+            <ul>
+              {stacks.map((s) => (
+                <li>{s}</li>
+              ))}
+            </ul>
+            <div>
+              <a href={github} target="_blank" rel="noopener noreferrer">
+                <button className="goTo">GitHub</button>
+              </a>
+              {deploy === "none" ? (
+                <button className="goTo disabled" disabled>
+                  Deploy
+                </button>
+              ) : (
+                <a href={deploy} target="_blank" rel="noopener noreferrer">
+                  <button className="goTo">Deploy</button>
+                </a>
+              )}
+            </div>
+          </div>
+        </motion.div>
       ) : (
         <motion.div
           transition={{ duration: 2 }}

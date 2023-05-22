@@ -3,7 +3,7 @@ import "./Header.scss";
 import { motion } from "framer-motion";
 import marioGif from "../../assets/gif/mario.gif";
 import arrowGif from "../../assets/gif/arrow2.gif";
-import { name, lastName } from "../../utils/MyName";
+import { myName, myLastName } from "../../utils/MyName";
 import Letter from "../Letter/Letter";
 
 const Header = () => {
@@ -18,12 +18,12 @@ const Header = () => {
       </section>
       <section>
         <div className="myName">
-          {name.map((l) => (
+          {myName.map((l) => (
             <Letter key={l.id} oneLetter={l} />
           ))}
         </div>
         <div className="myName">
-          {lastName.map((l) => (
+          {myLastName.map((l) => (
             <Letter key={l.id} oneLetter={l} />
           ))}
         </div>

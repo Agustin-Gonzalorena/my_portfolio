@@ -3,7 +3,7 @@ import "./About.scss";
 import { motion } from "framer-motion";
 import marioRun from "../../assets/gif/marioRun.gif";
 import SocialCard from "../SocialCard/SocialCard";
-import { social } from "../../utils/MySocial";
+import { mySocial } from "../../utils/MySocial";
 
 const About = () => {
   const screenWidth = window.screen.width;
@@ -33,7 +33,7 @@ const About = () => {
       </section>
       <div className="boxSocial">
         <div className="firstLogo"></div>
-        {social.map((i) => (
+        {mySocial.map((i) => (
           <SocialCard
             key={i.id}
             name={i.name}
@@ -46,11 +46,11 @@ const About = () => {
           className="marioRun"
           initial={{ x: -exitX + 100, opacity: 0 }}
           transition={{
-            duration: window.screen.width > 768 ? 2 : 3,
+            duration: window.screen.width > 768 ? 2 : 1.8,
             delay: 1.5,
           }}
           whileInView={{
-            x: [-exitX + 100, 0],
+            x: [-exitX + 50, 0],
             opacity: [0, 1, 1, 1, 1, 0],
           }}
           viewport={{ once: true }}

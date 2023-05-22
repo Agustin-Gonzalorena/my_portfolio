@@ -1,4 +1,4 @@
-export const name = [
+export const myName = [
   { id: 1, letter: "A", time: 1, color: 0 },
   { id: 2, letter: "G", time: 1.2, color: 1 },
   { id: 3, letter: "U", time: 1.4, color: 2 },
@@ -7,7 +7,7 @@ export const name = [
   { id: 6, letter: "I", time: 2, color: 1 },
   { id: 7, letter: "N", time: 2.2, color: 2 },
 ];
-export const lastName = [
+export const myLastName = [
   { id: 1, letter: "G", time: 0.4, color: 1 },
   { id: 2, letter: "O", time: 0.6, color: 0 },
   { id: 3, letter: "N", time: 0.8, color: 2 },

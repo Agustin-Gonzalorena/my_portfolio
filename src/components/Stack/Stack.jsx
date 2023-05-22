@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Stack.scss";
 import marioBomb from "../../assets/gif/bomb3.gif";
-import { stacks } from "../../utils/MyStack";
+import { myStacks } from "../../utils/MyStack";
 import StackCard from "../StackCard/StackCard";
 import { motion } from "framer-motion";
 
@@ -37,7 +37,9 @@ const Stack = () => {
             src={marioBomb}
           />
         ) : (
-          stacks.map((s) => <StackCard key={s.id} name={s.name} img={s.img} />)
+          myStacks.map((s) => (
+            <StackCard key={s.id} name={s.name} img={s.img} />
+          ))
         )}
       </motion.div>
     </section>

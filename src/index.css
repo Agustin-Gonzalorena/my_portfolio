@@ -11,6 +11,7 @@ body {
 a {
   cursor: url(./assets/img/MarioCursorPointer.png), auto;
 }
+
 @font-face {
   font-family: SuperMario;
   src: url("./assets/fonts/SuperMario256.ttf");
