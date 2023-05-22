@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import cursorPointer from "../../assets/img/MarioCursorPointer.png";
 
 const Letter = ({ oneLetter }) => {
-  const [classLetter, setClassLetter] = useState("");
+  const [classLetter, setClassLetter] = useState("letter");
   const colors = [
     ["#049cd8", "#049cd8", "#049cd8", "#049cd8", "#fff"],
     ["#FBD000", "#FBD000", "#FBD000", "#FBD000", "#fff"],
@@ -20,12 +20,14 @@ const Letter = ({ oneLetter }) => {
       style={{ margin: 0 }}
       initial={{
         x: 0,
-        y: -600,
+        y: -300,
+        opacity: 0,
       }}
       transition={{ duration: 0.5, delay: oneLetter.time }}
       animate={{
         x: 0,
         y: 0,
+        opacity: 1,
         color: colors[oneLetter.color],
       }}
     >
