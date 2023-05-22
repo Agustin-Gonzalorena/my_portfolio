@@ -2,7 +2,7 @@ import ashComputerImg from "../assets/img/proyects/ashComputer.png";
 import melonShopImg from "../assets/img/proyects/shopMelon.png";
 import ashIndumentariaImg from "../assets/img/proyects/ashIndumentaria.png";
 
-export const myProyects = [
+export const myProjects = [
   {
     id: 1,
     name: "E-commerce React JS",

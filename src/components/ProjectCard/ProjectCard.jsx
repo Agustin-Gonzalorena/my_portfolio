@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import "./ProyectCard.scss";
+import "./ProjectCard.scss";
 import { motion } from "framer-motion";
 import cubeImg from "../../assets/img/Cubo.png";
-import StackCard from "../StackCard/StackCard";
 
-const ProyectCard = ({ name, description, stacks, img, deploy, github }) => {
+const ProjectCard = ({ name, description, stacks, img, deploy, github }) => {
   const [view, setView] = useState(false);
   const changue = () => {
     setTimeout(() => {
@@ -15,7 +14,7 @@ const ProyectCard = ({ name, description, stacks, img, deploy, github }) => {
     <>
       {view ? (
         <motion.div
-          className="proyectCardContainer"
+          className="projectCardContainer"
           transition={{ duration: 2 }}
           animate={{ opacity: [0, 1] }}
         >
@@ -65,4 +64,4 @@ const ProyectCard = ({ name, description, stacks, img, deploy, github }) => {
   );
 };
 
-export default ProyectCard;
+export default ProjectCard;

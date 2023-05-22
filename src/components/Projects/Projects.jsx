@@ -1,16 +1,16 @@
 import React from "react";
-import "./Proyects.scss";
-import ProyectCard from "../ProyectCard/ProyectCard";
-import { myProyects } from "../../utils/MyProyects";
+import "./Projects.scss";
+import ProjectCard from "../ProjectCard/ProjectCard";
+import { myProjects } from "../../utils/MyProjects";
 
-const Proyects = () => {
+const Projects = () => {
   const arr = [{ id: 1 }, { id: 2 }];
   return (
-    <section className="proyectsBox">
-      <h2>Proyects</h2>
-      <div className="proyectsContent">
-        {myProyects.map((i) => (
-          <ProyectCard
+    <section className="projectsBox">
+      <h2>Projects</h2>
+      <div className="projectsContent">
+        {myProjects.map((i) => (
+          <ProjectCard
             key={i.id}
             name={i.name}
             description={i.description}
@@ -26,10 +26,10 @@ const Proyects = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="moreProyects">Ver mas...</button>
+        <button className="moreProjects">Ver mas...</button>
       </a>
     </section>
   );
 };
 
-export default Proyects;
+export default Projects;
