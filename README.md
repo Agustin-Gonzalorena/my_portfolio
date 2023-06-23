@@ -23,5 +23,3 @@ If you are interested in collaborating on any project or simply want to get in t
 I would like to express my gratitude to all the individuals who have contributed to my professional journey and supported my growth as a web developer.
 
 Thank you for visiting my portfolio, and I look forward to potentially collaborating with you on future projects!
-
-Remember to personalize the content based on your own projects, technologies, and contact links. Good luck with your portfolio!
