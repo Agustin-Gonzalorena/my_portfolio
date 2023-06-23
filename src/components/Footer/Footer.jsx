@@ -25,7 +25,7 @@ const Footer = () => {
           className={takeoff ? "skullButton skullActive" : "skullButton"}
           src={calaveraImg}
           onClick={goUp}
-          title="Subir"
+          title="Go up"
         />
         {takeoff ? (
           <motion.img

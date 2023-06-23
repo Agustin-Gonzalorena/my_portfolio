@@ -5,7 +5,7 @@ import cubeImg from "../../assets/img/Cubo.png";
 
 const ProjectCard = ({ name, description, stacks, img, deploy, github }) => {
   const [view, setView] = useState(false);
-  const changue = () => {
+  const change = () => {
     setTimeout(() => {
       setView(true);
     }, 2000);
@@ -49,7 +49,7 @@ const ProjectCard = ({ name, description, stacks, img, deploy, github }) => {
       ) : (
         <motion.div
           transition={{ duration: 2 }}
-          whileInView={changue}
+          whileInView={change}
           exit={{ opacity: [1, 1, 0] }}
           style={{
             height: "200px",

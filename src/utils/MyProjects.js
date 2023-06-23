@@ -7,7 +7,7 @@ export const myProjects = [
     id: 1,
     name: "E-commerce React JS",
     description:
-      "E-commerce de productos tecnologicos, consumiendo API de Mercado Libre.",
+      "E-commerce of technological products, consuming Mercado Libre API.",
     stacks: ["React", "Bootstrap", "React-router-dom"],
     img: melonShopImg,
     deploy: "https://shop-melon-react-js.vercel.app/",
@@ -17,7 +17,7 @@ export const myProjects = [
     id: 2,
     name: "E-commerce server-side rendering",
     description:
-      "E-commerce de ropa desarrollado renderizado desde el servidor con Php y utilizando la base de datos MySQL. ",
+      "Clothing e-commerce developed rendered from the server with Php and using the MySQL database. ",
     stacks: ["Php", "MySQL"],
     img: ashIndumentariaImg,
     deploy: "none",
@@ -26,8 +26,7 @@ export const myProjects = [
   {
     id: 3,
     name: "E-commerce Angular",
-    description:
-      "E-commerce de computadoras consumiendo api de mockAPI para obtener los productos.",
+    description: "Computer shop consuming mockAPI api to get the products.",
     stacks: ["Angular", "Angular Material"],
     img: ashComputerImg,
     deploy: "https://agustin-gonzalorena.github.io/ashComputer/home",

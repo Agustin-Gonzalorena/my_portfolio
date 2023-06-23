@@ -60,7 +60,7 @@ const Contact = () => {
         {loading && (
           <img style={{ height: "50px" }} src={coinImg} alt="loading" />
         )}
-        {send && <p style={{ color: "#e52521" }}>Enviado!!!</p>}
+        {send && <p style={{ color: "#e52521" }}>Message sent!!!</p>}
         <form className="form" onSubmit={sendEmail}>
           <div className="input-container">
             <input
@@ -79,7 +79,7 @@ const Contact = () => {
               id="name"
               name="name"
               type="text"
-              placeholder="Nombre"
+              placeholder="Name"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -90,7 +90,7 @@ const Contact = () => {
             <textarea
               id="message"
               name="message"
-              placeholder="Escribe tu mensaje"
+              placeholder="Write your message here"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
@@ -99,11 +99,11 @@ const Contact = () => {
           </div>
           {!loading ? (
             <button type="submit" className="mario-button ">
-              ENVIAR
+              SEND
             </button>
           ) : (
             <button type="submit" className="mario-button disabled" disabled>
-              ENVIAR
+              SEND
             </button>
           )}
         </form>

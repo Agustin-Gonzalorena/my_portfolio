@@ -21,13 +21,12 @@ const About = () => {
         >
           <h2>About me</h2>
           <p>
-            Soy desarrollador web Full Stack con experiencia en la creación de
-            aplicaciones web personalizadas desde cero. Con habilidades en el
-            desarrollo de front-end y back-end, puedo trabajar en todas las
-            etapas del ciclo de vida del desarrollo de software. Mi pasión por
-            crear soluciones innovadoras y de alta calidad para los usuarios
-            finales me lleva a estar siempre al día con las últimas tecnologías
-            y tendencias en el mercado.
+            I am a Full Stack web developer with experience in creating custom
+            web applications from scratch. With skills in both front-end and
+            back-end development, I can work on all stages of the software
+            development life cycle. My passion for creating innovative and
+            high-quality solutions for end users drives me to stay up-to-date
+            with the latest technologies and trends in the market.
           </p>
         </motion.div>
       </section>

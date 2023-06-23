@@ -26,7 +26,7 @@ const Projects = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="moreProjects">Ver mas...</button>
+        <button className="moreProjects">More</button>
       </a>
     </section>
   );
