@@ -4,11 +4,8 @@ This is my personal portfolio, where I showcase some of the projects I have work
 
 ## Technologies Used
 
-- HTML5, CSS3, and JavaScript for building interactive and appealing user interfaces.
-- Frameworks and libraries like React.js and Angular for developing modern and scalable web applications.
-- PHP for creating servers and implementing server-side logic.
-- Databases like MySQL for storing and managing data.
-- Git and version control to keep track of changes in the source code.
+-React JS
+-Framer Motion
 
 ## Contact
 
