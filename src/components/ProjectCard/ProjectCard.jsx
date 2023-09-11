@@ -27,7 +27,7 @@ const ProjectCard = ({ name, description, stacks, img, deploy, github }) => {
             <p>{description}</p>
             <ul>
               {stacks.map((s) => (
-                <li>{s}</li>
+                <li key={s}>{s}</li>
               ))}
             </ul>
             <div>
