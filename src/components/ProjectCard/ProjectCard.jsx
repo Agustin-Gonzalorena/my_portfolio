@@ -8,7 +8,7 @@ const ProjectCard = ({ name, description, stacks, img, deploy, github }) => {
   const change = () => {
     setTimeout(() => {
       setView(true);
-    }, 2000);
+    }, 1000);
   };
   return (
     <>
