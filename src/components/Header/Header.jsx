@@ -34,7 +34,7 @@ const Header = () => {
             transition={{ duration: 3 }}
             animate={{ opacity: 1 }}
           >
-            Full Stack Developer
+            Web Developer
           </motion.h2>
         ) : (
           <h2></h2>
