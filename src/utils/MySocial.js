@@ -19,6 +19,6 @@ export const mySocial = [
     id: 3,
     name: "CV",
     logo: logoCv,
-    url: "https://drive.google.com/file/d/1l8ddO_ZF0U5PwOsVZV9YBY1dvfSUR8H_/view?usp=share_link",
+    url: "https://drive.google.com/file/d/1c6vNmmUnPwFaJy77TWffsGrV7KAcVuh1/view?usp=drive_link",
   },
 ];
