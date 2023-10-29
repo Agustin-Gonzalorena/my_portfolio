@@ -1,82 +1,85 @@
-.aboutContainer{
-    height: 400px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-           
+.aboutContainer {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.tube{
-    position: absolute;
+.tube {
+  position: absolute;
+  height: 100px;
+  width: 60px;
+  z-index: 2;
+  background-image: url("../../assets/img/tube.png");
+  background-position: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  left: 0;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: medium;
+    margin: 0;
+    width: 60%;
+    text-align: justify;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  strong {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+.boxSocial {
+  margin-top: 0;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+  .firstLogo {
+    width: 50px;
+    opacity: 0;
+  }
+  .marioRun {
+    height: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tube {
+    height: 255px;
+    width: 153px;
+  }
+  .textContainer {
+    h2 {
+      font-size: 50px;
+    }
+    p {
+      width: 50%;
+      font-size: larger;
+    }
+  }
+  .boxSocial {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
     height: 100px;
-    width: 60px;
-    z-index: 2;
-    background-image: url("../../assets/img/tube.png");
-    background-position: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    left: 0;
-}
-.textContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    h2{
-        font-size: 30px;
-    }
-    p{
-        font-size: medium;
-        margin: 0;
-        width: 60%;
-        text-align: justify;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-}
-.boxSocial{
-    margin-top: 0;
-    display: flex;
-    width: 100%;
-    height: 50px;
     justify-content: center;
     align-items: end;
     gap: 10px;
-    .firstLogo{
-        width: 50px;
-        opacity: 0;
+    .firstLogo {
+      width: 100px;
     }
-    .marioRun{
-        height: 60px;
+    .marioRun {
+      height: 100px;
     }
-}
-@media screen and (min-width:768px) {
-    .tube{
-        height: 255px;
-        width: 153px;
-    }
-    .textContainer{
-        h2{
-            font-size: 50px;
-        }
-        p{  
-            width: 50%;
-            font-size: larger;
-        }
-    }
-    .boxSocial{
-        margin-top: 30px;
-        display: flex;
-        width: 100%;
-        height: 100px;
-        justify-content: center;
-        align-items: end;
-        gap: 10px;
-        .firstLogo{
-            width: 100px;
-        }
-        .marioRun{
-            height: 100px;
-        }
-    }
+  }
 }

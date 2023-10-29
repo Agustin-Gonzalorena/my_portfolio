@@ -23,10 +23,11 @@ const About = () => {
           <p>
             I am a passionate web developer with experience in both front-end
             and back-end development. Currently, my primary focus is on
-            front-end development using React. My constant desire for learning
-            drives me to explore and master new tools and technologies
-            continuously, enabling me to stay updated on the latest trends and
-            provide innovative solutions in my projects.
+            <strong> front-end </strong>development using{" "}
+            <strong> React Js</strong>. My constant desire for learning drives
+            me to explore and master new tools and technologies continuously,
+            enabling me to stay updated on the latest trends and provide
+            innovative solutions in my projects.
           </p>
         </motion.div>
       </section>

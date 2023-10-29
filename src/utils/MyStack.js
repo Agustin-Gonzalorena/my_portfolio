@@ -13,15 +13,15 @@ import gitImg from "../assets/img/stack/git.jpeg";
 
 export const myStacks = [
   { id: 1, name: "JavaScript", img: jsImg },
-  { id: 2, name: "TypeScript", img: tsImg },
+  { id: 6, name: "React JS", img: reactImg },
   { id: 3, name: "HTML", img: htmlImg },
   { id: 4, name: "CSS", img: cssImg },
   { id: 5, name: "Sass", img: sassImg },
-  { id: 6, name: "React JS", img: reactImg },
   { id: 7, name: "Php", img: phpImg },
   { id: 8, name: "MySQL", img: mysqlImg },
-  { id: 9, name: "Angular", img: angularImg },
-  { id: 10, name: "Angular Material", img: aMaterialImg },
   { id: 11, name: "Bootstrap", img: bootstrapImg },
   { id: 12, name: "Git", img: gitImg },
+  { id: 9, name: "Angular", img: angularImg },
+  { id: 2, name: "TypeScript", img: tsImg },
+  { id: 10, name: "Angular Material", img: aMaterialImg },
 ];
