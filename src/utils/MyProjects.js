@@ -8,7 +8,7 @@ export const myProjects = [
     id: 1,
     name: "Racing game React JS",
     description:
-      "Racing game with mario bros characters, practicing simple animations. Only in mobile version",
+      "Racing game with mario bros characters, practicing simple animations. Recommended in mobile version.",
     stacks: ["React"],
     img: marioGame,
     deploy: "https://mario-kart-six.vercel.app/",
